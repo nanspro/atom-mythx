@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Analyze atom-mythx",
+        "command": "atom-mythx:analyze"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "atom-mythx",
+          "submenu": [
+            {
+              "label": "Analyze",
+              "command": "atom-mythx:analyze"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
